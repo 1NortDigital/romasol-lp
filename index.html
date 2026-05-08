@@ -323,7 +323,7 @@ section{padding:84px 0}
 .ft-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:36px;margin-bottom:44px}
 @media(max-width:900px){.ft-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.ft-grid{grid-template-columns:1fr}}
-.ft-brand img{height:48px;width:auto;margin-bottom:14px;filter:brightness(0) invert(1)}
+.ft-brand img{height:54px;width:auto;margin-bottom:14px;background:rgba(255,255,255,.92);padding:8px 14px;border-radius:10px}
 .ft-brand p{font-size:14px;color:rgba(255,255,255,.55);line-height:1.8;margin-bottom:18px;font-weight:500}
 .soc-links{display:flex;gap:10px}
 .soc-a{width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;font-size:18px;color:rgba(255,255,255,.85);text-decoration:none;transition:all var(--t)}
@@ -400,7 +400,7 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
 <div class="topbar">
   <div class="container">
     <div class="tb-side">
-      <div class="tb-item"><span class="material-icons" aria-hidden="true">location_on</span> <span>Uberlândia · Triângulo Mineiro</span></div>
+      <div class="tb-item"><span class="material-icons" aria-hidden="true">location_on</span> <span>Uberlândia · MG  &nbsp;|&nbsp;  Catalão · GO</span></div>
     </div>
     <div class="tb-side">
       <div class="tb-item"><span class="material-icons" aria-hidden="true">phone</span> <a href="tel:+553497783777">(34) 9 9778-3777</a></div>
@@ -597,7 +597,9 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
           </select>
         </div>
       </div>
-      <button onclick="calcEconomia()" class="btn btn-white" style="font-size:18px;padding:16px 36px"><span class="material-icons" aria-hidden="true">bolt</span> Calcular Minha Economia</button>
+      <div style="text-align:center;margin-top:6px">
+        <button onclick="calcEconomia()" class="btn btn-white" style="font-size:18px;padding:16px 36px"><span class="material-icons" aria-hidden="true">bolt</span> Calcular Minha Economia</button>
+      </div>
       <div class="calc-result-box" id="calcBox">
         <p style="color:var(--gold-light);font-family:'Montserrat';font-size:18px;font-weight:800;margin-bottom:16px"><span class="material-icons" aria-hidden="true">check_circle</span> Estimativa para você:</p>
         <div class="calc-res-grid">
@@ -735,7 +737,6 @@ a:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
       <div class="faq-item"><button class="faq-q" onclick="faqToggle(this)" aria-expanded="false"><span class="faq-qt">Em quanto tempo a energia solar se paga?</span><span class="faq-ch">▼</span></button><div class="faq-a">De <strong>2 a 5 anos</strong>. Após esse período, você gera energia praticamente de graça por mais 20 a 25 anos. Com os reajustes anuais das tarifas, o retorno tende a ser cada vez mais rápido — melhor que poupança e CDI.</div></div>
       <div class="faq-item"><button class="faq-q" onclick="faqToggle(this)" aria-expanded="false"><span class="faq-qt">A energia solar funciona em dias nublados?</span><span class="faq-ch">▼</span></button><div class="faq-a">Sim. Os painéis fotovoltaicos funcionam com luz difusa. A geração é reduzida em comparação a dias ensolarados, mas o sistema continua produzindo. O Triângulo Mineiro tem uma das melhores irradiações solares do Brasil.</div></div>
       <div class="faq-item"><button class="faq-q" onclick="faqToggle(this)" aria-expanded="false"><span class="faq-qt">Posso financiar o sistema solar?</span><span class="faq-ch">▼</span></button><div class="faq-a">Sim. Linhas de financiamento que trabalhamos: <strong>Santander, BV, Sol Fácil, Sol Agora, BTG, Bel Credit, antecipação de FGTS e empréstimo consignado</strong>. Em muitos casos a parcela do financiamento é menor que a economia gerada na conta de luz, ou seja, você financia o sistema com o próprio dinheiro que pagaria à concessionária.</div></div>
-      <div class="faq-item"><button class="faq-q" onclick="faqToggle(this)" aria-expanded="false"><span class="faq-qt">A Romasol atende minha cidade?</span><span class="faq-ch">▼</span></button><div class="faq-a">Atendemos mais de <strong>100 cidades</strong> com unidades em Uberlândia (MG) e Catalão (GO). Triângulo Mineiro, Alto Paranaíba e Sudeste Goiano. Solicite orçamento e confirmamos o atendimento na sua localização.</div></div>
     </div>
   </div>
 </section>
